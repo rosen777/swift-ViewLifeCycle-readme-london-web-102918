@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("viewDidLoad() called")
         view.backgroundColor = UIColor.randomColor()
+        print("viewDidLoad() called")
     }
     
     override func viewWillAppear(_ animated: Bool) {
